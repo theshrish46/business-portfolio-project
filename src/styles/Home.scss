@@ -23,7 +23,7 @@
             color: $first;
         }
         p {
-            font: 900 1rem $text1;
+            font: 900 1.35rem $text2;
             color: $first;
         }
     }
@@ -64,10 +64,10 @@
         height: 100vh;
 
         p {
-            columns: $first;
+            color: $first;
             letter-spacing: 2px;
             word-spacing: 5px;
-            font: 100 1.2rem $text2;
+            font: italic 100 1.2rem $text2;
         }
     }
 }
