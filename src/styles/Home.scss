@@ -55,7 +55,7 @@
     }
 
     div {
-        width: 50%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -65,9 +65,9 @@
 
         p {
             color: $first;
-            letter-spacing: 2px;
+            letter-spacing: 5px;
             word-spacing: 5px;
-            font: italic 100 1.2rem $text2;
+            font: italic 100 1.25rem $text2;
         }
     }
 }
@@ -99,19 +99,21 @@
         padding: 2rem;
 
         h1 {
+            font-size: 2rem;
             text-transform: uppercase;
             border-bottom: 2px solid $dark;
-            padding: .5rem;
+            padding: .3rem;
             width: 15rem;
             color: $dark;
         }
 
         p {
-            padding: 5rem;
+            font-size: 1.3rem;
+            padding: 3rem;
             letter-spacing: 1px;
             word-spacing: 5px;
             line-height: 170%;
-            font: italic 100 1.2rem $text2;
+            font: italic 300 1.2rem $text2;
 
         }
     }
